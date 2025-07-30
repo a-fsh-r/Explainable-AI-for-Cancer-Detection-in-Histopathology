@@ -21,7 +21,6 @@ Grad-CAM works by computing the gradients of the output class score with respect
 ## 📷 Visualization Example
 
 | ![Tumor Patch](img/res.png) |
-|:--:|:--:|:--:|
 | **Original Tumor Patch** | **Grad-CAM Grayscale Map** | **Grad-CAM Heatmap Overlay** |
 ---
 
