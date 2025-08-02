@@ -1,6 +1,6 @@
 # 🧠🔬 Explainable AI for Cancer Detection in Histopathology 🩺🖼️
 
-This project applies **🌟 Grad-CAM (Gradient-weighted Class Activation Mapping) 🌟** to a **ResNet-50** model trained for **binary classification** of histopathological images (cancerous vs. non-cancerous). The main goal is to enhance the interpretability and trustworthiness of deep learning predictions in medical imaging, allowing clinicians to visually verify what the model "sees" as evidence for cancer 🔍.
+This project applies **🌟 Grad-CAM (Gradient-weighted Class Activation Mapping) 🌟** to a **ResNet-50** model trained for **multi-class classification** of histopathological images (cancerous vs. non-cancerous). The main goal is to enhance the interpretability and trustworthiness of deep learning predictions in medical imaging, allowing clinicians to visually verify what the model "sees" as evidence for cancer 🔍.
 
 ## 🧠 Overview 💡
 
