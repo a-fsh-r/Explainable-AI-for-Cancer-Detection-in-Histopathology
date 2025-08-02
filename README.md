@@ -11,7 +11,7 @@ By generating a heatmap overlay on the original image, Grad-CAM guides pathologi
 ## 🔬 Model Details 🖥️
 
 - **Architecture**: ResNet-50, a deep residual network known for powerful feature extraction 🧠.
-- **Task**: Binary classification to distinguish cancerous tissue patches from normal tissue.
+- **Task**: Multi-class classification to distinguish between two types of cancerous tissue patches and normal tissue.
 - **Explainability**: Grad-CAM applied to the last convolutional layer for interpretable visual explanations👁️.
 
 Grad-CAM works by computing the gradients of the output class score with respect to the feature maps in the last convolutional layer. These gradients are pooled to weigh the importance of each feature map channel. The weighted sum produces a localization heatmap showing **the spatial regions most influential in the model's decision** 🗺️.
